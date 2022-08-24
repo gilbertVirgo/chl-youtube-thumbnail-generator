@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const Canvas = styled.canvas`
 	border: 2px dashed lightgrey;
 	border-radius: 2px;
+	width: 640px;
 `;
 
 export const Dual = styled.div`
