@@ -22,7 +22,7 @@ export const Label = styled.label`
 	display: block;
 	text-transform: uppercase;
 	font-weight: 500;
-	margin-bottom: 10px;
+	margin-bottom: 5px;
 `;
 
 export const Small = styled.small`

@@ -91,7 +91,12 @@ function App() {
 	return (
 		<React.Fragment>
 			<Group>
+				<Label>Preview</Label>
 				<Canvas ref={canvas} width={width} height={height} />
+				<Small style={{ marginTop: "2px" }}>
+					To download the image, simply right-click (long-press on
+					iOS) and click Save As.
+				</Small>
 			</Group>
 
 			<Dual>
